@@ -1,8 +1,8 @@
 <?php
 	//include("db.php");
 	include("functions.php");	
-	updateTable();
-
+	deleteRows();
+	
 ?>
 
 
@@ -10,8 +10,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
-				<h1 class="text-center">Update</h1>
-				<form action="login_update.php" method="post">
+				<h1 class="text-center">Delete</h1>
+				<form action="login_delete.php" method="post">
 					<div class="form-group">
 						<label for="username">Username</label>
 						<input type="text" class="form-control" id="username" name="username">
@@ -25,7 +25,7 @@
 							<?php showAllData(); ?>							
 						</select>
 					</div>
-					<input type="submit" class="btn btn-primary" name="submit" value="Update">
+					<input type="submit" class="btn btn-primary" name="submit" value="Delete">
 				</form>
 			</div>
 		</div>
