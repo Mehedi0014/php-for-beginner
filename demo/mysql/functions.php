@@ -1,8 +1,6 @@
 <?php
 include("db.php");
 
-
-
 function createRows(){
 	if (isset($_POST['submit'])) {
 		global $connection;
@@ -39,6 +37,7 @@ function createRows(){
 		}
 	}
 }
+
 
 function readRows(){
 	global $connection;

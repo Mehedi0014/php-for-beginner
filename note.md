@@ -1,5 +1,5 @@
 All Video 340 - (9+5+7+7+4+5 = 37)
-start chapter number : 7.1
+start chapter number : 7.9
 
 //////////////////////////////////////////////////////////////
 start chapter number : 12.12
@@ -75,6 +75,33 @@ Task:
 3. Validating The Form Values
 4. External Page Submission
 5. Practice Section 6
+
+----------------------------------
+7. How To Use Databases in PHP
+----------------------------------
+1. Introduction to Databases
+2. Introduction to PHPmyadmin
+3. Creating a Database in PHPmyadmin
+4. Creating Tables and Inserting Data in PHPmyadmin
+5. Markup for Login Page
+6. Receiving Post Data From Check
+7. Connecting to the Database using PHP
+8. Creating Records into the database table with PHP
+9. Reading Information in the Database with PHP
+
+10. Creating the Update Records Form
+11. Fixing Name Attribute Value
+12. Query to Read Id's
+13. Query to Update Username and Password
+14. Refactoring The Update Query into a Function
+15. Delete Records From Database with PHP
+16. ReFactoring all Database Query Code into Functions
+17. Making All Files Modular and Refactoring
+18. Practice Section 7
+
+
+
+
 
 
 
