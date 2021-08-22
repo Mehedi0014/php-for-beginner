@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 === 66 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 === 76 )
 start chapter number : 8
 
 //////////////////////////////////////////////////////////////
@@ -113,6 +113,25 @@ start chapter number : 12.12
 6. Reading Cookies in PHP
 7. How use Sessions in PHP
 8. Practice Section 9
+
+----------------------------------
+10. Object Oriented PHP Introduction
+----------------------------------
+1. What are classes and objects  Introduction
+2. What are classes and how to define them in PHP
+3. What are class methods and how to create them
+4. How to instantiate a class
+5. Adding Properties to Our Class
+6. Class inheritance
+7. Constructors
+8. Data Access
+9. Static Data in Classes
+10. Practice Section 10
+
+
+
+
+
 
 
 
