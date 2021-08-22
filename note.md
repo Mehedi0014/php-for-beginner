@@ -1,17 +1,14 @@
-All Video 340 - (9+5+7+7+4+5 = 37)
-start chapter number : 7.9
+Start Date: 1st August, 2021
+End Date: 31th December, 2121
+
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 === 66 )
+start chapter number : 8
 
 //////////////////////////////////////////////////////////////
 start chapter number : 12.12
 
 //////////////////////////////////////////////////////////////
-Task:
-1. Create a form and post it in post,get and request method
-2. Add condition in minium and maxium condition
-3. make a array and when we submit form if the name inside in array we message welcome or message you are not allow.
 
-
-//////////////////////////////////////////////////////////////
 
 
 ----------------------------------
@@ -88,7 +85,6 @@ Task:
 7. Connecting to the Database using PHP
 8. Creating Records into the database table with PHP
 9. Reading Information in the Database with PHP
-
 10. Creating the Update Records Form
 11. Fixing Name Attribute Value
 12. Query to Read Id's
@@ -99,11 +95,24 @@ Task:
 17. Making All Files Modular and Refactoring
 18. Practice Section 7
 
+----------------------------------
+8. PHP Security
+----------------------------------
+1. SQL Injection - How to Prevent it
+2. Password Encryption
+3. Practice Section 8
 
-
-
-
-
+----------------------------------
+9. PHP and The Web
+----------------------------------
+1. Introduction to HTTP Requests and more
+2. Using The GET super Global
+3. Using the Post Super Global
+4. About Cookies in PHP
+5. Setting Cookies with PHP
+6. Reading Cookies in PHP
+7. How use Sessions in PHP
+8. Practice Section 9
 
 
 

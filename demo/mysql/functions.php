@@ -41,10 +41,10 @@ function createRows(){
 
 function readRows(){
 	global $connection;
-	
+
 	$query = "SELECT * FROM users";
 	$result = mysqli_query($connection, $query);
-	
+
 	if (!$result) {
 		die('query failed'. mysqli_error());
 	}
@@ -55,6 +55,7 @@ function readRows(){
 		echo "</pre>";
 	}
 }
+
 
 function showAllData(){
 	global $connection;
@@ -67,10 +68,9 @@ function showAllData(){
 	while( $row = mysqli_fetch_assoc($result) ){
 		$id = $row['id'];
 		$username = $row['username'];
-		echo "<option value='$id'>$username</option>";	
-	}							
+		echo "<option value='$id'>$username</option>";
+	}
 }
-
 
 
 function updateTable(){
@@ -97,7 +97,7 @@ function updateTable(){
 
 
 
-function deleteRows(){
+function deleteRow(){
 	if(isset($_POST['submit'])){
 		global $connection;
 
@@ -108,6 +108,7 @@ function deleteRows(){
 		$query = "DELETE from users ";
 		$query .= "WHERE id = $id";
 
+
 		$result = mysqli_query($connection, $query);
 		if (!$result) {
 			die('Query Failed' . mysqli_error($connection));
@@ -116,3 +117,5 @@ function deleteRows(){
 		}
 	}
 }
+
+

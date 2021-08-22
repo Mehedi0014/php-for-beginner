@@ -22,7 +22,7 @@
 					</div>
 					<div class="form-group">
 						<select name="id" id="">
-							<?php showAllData(); ?>							
+							<?php showAllData(); ?>
 						</select>
 					</div>
 					<input type="submit" class="btn btn-primary" name="submit" value="Delete">

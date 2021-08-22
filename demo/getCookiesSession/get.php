@@ -1,5 +1,9 @@
 <?php
 print_r($_GET);
+echo "<br/>";
+
+$name = $_GET['name'];
+echo "My name is : " . $name;
 ?>
 
 
@@ -10,7 +14,7 @@ print_r($_GET);
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/style.css">
-	<title>Document</title>
+	<title>Global GET</title>
 </head>
 <body>
 
@@ -20,8 +24,9 @@ print_r($_GET);
 		<div class="row">
 
 				<?php $id = 100; ?>
+				<?php $name = "Md. Mehedi Hassan"; ?>
 			
-				<a href="get.php?id=<?php echo $id ?>" class="btn btn-primary">Click Here</a>
+				<a href="get.php?id=<?php echo $id; ?>&name=<?php echo $name; ?>" class="btn btn-primary">Click Here</a>
 		</div>
 	</div>
 	
