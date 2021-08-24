@@ -1,7 +1,14 @@
 <?php
 
-	$file = "example3.txt";
+	
+	$file = "example.txt";
 
-	fopen($file, 'w');
-	fclose($handle);
+	if (file_exists($file)) {
+		echo "File already exitst";
+	} else {
+		
+		$handle = fopen($file, 'w');
+		fclose($handle);
+		echo "File created";
+	}
 ?>
