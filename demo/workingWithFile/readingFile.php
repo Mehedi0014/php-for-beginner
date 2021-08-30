@@ -16,4 +16,6 @@
 		echo $content = fread($handle, filesize($file));
 	}
 
+	// echo fread(fopen('example.txt', 'r'), 6);
+
 ?>

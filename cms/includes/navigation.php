@@ -18,8 +18,27 @@
                         $query = "SELECT * FROM categories";
                         $select_all_categories_query = mysqli_query($connection, $query);
                         while ($row = mysqli_fetch_assoc($select_all_categories_query)) {
+
+                            // print_r($row);
+                            // Array (
+                            //     [cat_id] => 1,
+                            //     [cat_title] => Bootstrap
+                            // )
+                            // Array (
+                            //     [cat_id] => 2,
+                            //     [cat_title] => JavaScript
+                            // )
+                            // Array (
+                            //     [cat_id] => 3,
+                            //     [cat_title] => PHP
+                            // )
+                            // Array (
+                            //     [cat_id] => 4,
+                            //     [cat_title] => JAVA
+                            // )
+
                             $cat_title = $row['cat_title'];
-                            echo "<li><a href='#''>{$cat_title}</li></a>";
+                            echo "<li><a href='#'>{$cat_title}</a></li>";
                         }
                     ?>
                     <!-- <li>

@@ -19,6 +19,9 @@
 	} else {
 		echo "something wrong";
 	}
+
+
+	// fwrite(fopen('example.txt', 'w'), "I love php very much.");
  
 
 ?>
