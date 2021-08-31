@@ -2,10 +2,6 @@ Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
 All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4 === 80 )
-start chapter number : 8
-
-//////////////////////////////////////////////////////////////
-start chapter number : 12.12
 
 //////////////////////////////////////////////////////////////
 
@@ -144,7 +140,6 @@ start chapter number : 12.12
 3. Adding our assets  working structure
 4. Creating database and category table for the CMS
 5. Connecting to the database with PHP
-
 6. Making our files reuseable
 7. Inserting Data into Category Table and Displaying it
 8. Creating the posts table
@@ -152,6 +147,7 @@ start chapter number : 12.12
 10. Inserting Data into the posts table and displaying it
 11. Inserting the post image and displaying it
 12. Creating a custom search engine part 1
+
 13. Creating a custom search engine part 2
 14. Creating a custom search engine part 3
 15. Adding Categories to the sidebar
