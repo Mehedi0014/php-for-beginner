@@ -4,13 +4,7 @@
     <div class="well">
         <h4>Blog Search</h4>
 
-        <?php
-            if (isset($_POST['submit'])) {
-               $search = $_POST['search'];
-            }            
-        ?>
-
-        <form action="" method="post">
+        <form action="sidebar.php" method="post">
             <div class="input-group">
                 <input name="search" type="text" class="form-control">
                 <span class="input-group-btn">
