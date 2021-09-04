@@ -29,8 +29,6 @@
 
 	if (! $connection) {
 		die('Something Wrong');
-	}else{
-		echo "t";
 	}
 
 ?>
