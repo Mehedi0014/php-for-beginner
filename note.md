@@ -147,7 +147,6 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 10. Inserting Data into the posts table and displaying it
 11. Inserting the post image and displaying it
 12. Creating a custom search engine part 1
-
 13. Creating a custom search engine part 2
 14. Creating a custom search engine part 3
 15. Adding Categories to the sidebar
