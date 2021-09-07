@@ -151,6 +151,24 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 14. Creating a custom search engine part 3
 15. Adding Categories to the sidebar
 
+----------------------------------
+13. CMS - Categories & More
+----------------------------------
+1. Creating reuseable code in the admin
+2. Creating the navigation links in admin
+3. Creating the admin category page part 1
+4. Creating the admin category page part 2
+5. Displaying data in category page
+6. Adding Categories
+
+7. Adding a special Function to our header file
+8. Deleting Categories
+9. Updating or Editing Categories part 1
+10. Updating or Editing Categories part 2
+11. Refactoring category code part 1
+12. Refactoring category code part 2
+
+
 
 
 
