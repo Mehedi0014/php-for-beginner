@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 31, 2021 at 07:19 PM
+-- Generation Time: Sep 09, 2021 at 02:30 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -40,7 +40,9 @@ INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
 (1, 'Bootstrap'),
 (2, 'JavaScript'),
 (3, 'PHP'),
-(4, 'JAVA');
+(4, 'JAVA'),
+(25, 'Sohag Mama'),
+(29, 'Bootstrap 5.0');
 
 -- --------------------------------------------------------
 
@@ -94,7 +96,7 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `cat_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `cat_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `posts`
