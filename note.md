@@ -160,10 +160,11 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 4. Creating the admin category page part 2
 5. Displaying data in category page
 6. Adding Categories
-
 7. Adding a special Function to our header file
 8. Deleting Categories
 9. Updating or Editing Categories part 1
+
+
 10. Updating or Editing Categories part 2
 11. Refactoring category code part 1
 12. Refactoring category code part 2
