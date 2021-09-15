@@ -163,19 +163,29 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 7. Adding a special Function to our header file
 8. Deleting Categories
 9. Updating or Editing Categories part 1
-
-
 10. Updating or Editing Categories part 2
 11. Refactoring category code part 1
 12. Refactoring category code part 2
 
+----------------------------------
+14. CMS - POSTS
+----------------------------------
+1. Creating a HTML table in admin to display a list of posts
+2. Displaying posts list in admin
+3. Including Pages based on condition technique
 
-
-
-
-
-
-
+4. Creating Post HTML form in admin
+5. Inserting Post Data From admin
+6. Deleting Posts in admin
+7. Creating the HTML edit form post page
+8. Displaying the Edit Data in Post Edit Page
+9. Dynamic Category Editing  Image Display
+10. Finally Updating Posts
+11. Relating Categories to posts and Displaying it
+12. Adding Category Dropdown to the Add Post Page
+13. Adding Individual Post Page and Link
+14. Creating the category page
+15. Setting up some links and making an excerpt
 
 
 
