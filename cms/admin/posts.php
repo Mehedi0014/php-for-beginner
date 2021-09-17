@@ -12,9 +12,9 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">
-                            View All Posts
-                        </h1>
+                        <h3 class="page-header">
+                            Hi, Welcome in Posts section
+                        </h3>
 
                         <?php 
                             if (isset($_GET['source'])) {
@@ -24,16 +24,12 @@
                             }
 
                             switch($source){
-                                case '100':
-                                echo "Nice 100";
+                                case 'add_post':
+                                include "includes/add_post.php";
                                 break;
 
-                                case '200':
-                                echo "Nice 200";
-                                break;
-
-                                case '300':
-                                echo "Nice 300";
+                                case 'edit_post':
+                                include "includes/edit_post.php";
                                 break;
 
                                 default:

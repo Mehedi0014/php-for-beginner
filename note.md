@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4 === 80 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15+ [13]12 === 107 )
 
 //////////////////////////////////////////////////////////////
 
@@ -173,7 +173,6 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 1. Creating a HTML table in admin to display a list of posts
 2. Displaying posts list in admin
 3. Including Pages based on condition technique
-
 4. Creating Post HTML form in admin
 5. Inserting Post Data From admin
 6. Deleting Posts in admin
@@ -181,6 +180,7 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 8. Displaying the Edit Data in Post Edit Page
 9. Dynamic Category Editing  Image Display
 10. Finally Updating Posts
+
 11. Relating Categories to posts and Displaying it
 12. Adding Category Dropdown to the Add Post Page
 13. Adding Individual Post Page and Link
