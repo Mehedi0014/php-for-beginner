@@ -1,4 +1,18 @@
 <?php
+/*
+incher code e jai jinis ta sekhar ache ta holo:
+jokhon 1st ai page load hoy tokhon database theke data ene while loop dara ta variable e store kora hoyeche.
+ebong form er maddome ta dekhano hoyeche.
+but 1st load e  "$_POST['update_post']" er modde dhuke nai.
+
+2nd jokhon form er update button e click kora hoyeche tokhon abar page ta load hoyeche ebong while loop er variable e data aber store hoyeche.
+tobe ebar "$_POST['update_post']" er modde dukeche wbong while loop o "$_POST['update_post']" er variable same hober karone form er maddome asa update value while loop er variable er value k change kore diase.
+[amra jani kono variable e data store korar por niche jodi same name sei variable diclare kore notun kono data insart kora hoy tobe purber data replace hoye jai]
+tai update korar karone database e value update hoyeche ebong form e update value show koreche.
+
+ekhon jodi while loop er variable ebong "$_POST['update_post']" er variable er nam same na hoto tobe o database e value update hoto
+tobe form e previous value e dekhato, update value show korto na.
+*/
 
     if (isset($_GET['p_id'])) {
         $the_psot_id = $_GET['p_id'];
@@ -44,8 +58,6 @@
         }
 
 
-
-
         $query = "UPDATE posts SET ";
         $query .= "post_title = '{$post_title}', ";
         $query .= "post_category_id = '{$post_category_id}', ";
@@ -59,7 +71,6 @@
 
         $update_post = mysqli_query($connection, $query);
         confirmQuery($update_post);
-
     }
 ?>
 
