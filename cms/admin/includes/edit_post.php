@@ -15,11 +15,11 @@ tobe form e previous value e dekhato, update value show korto na.
 */
 
     if (isset($_GET['p_id'])) {
-        $the_psot_id = $_GET['p_id'];
+        $the_post_id = $_GET['p_id'];
     }
 
     // Select Query ==================================================
-    $query = "SELECT * FROM posts WHERE post_id = {$the_psot_id}";
+    $query = "SELECT * FROM posts WHERE post_id = {$the_post_id}";
     $select_posts_by_id = mysqli_query($connection, $query);
     while ($row = mysqli_fetch_assoc($select_posts_by_id)) :
         $post_id = $row['post_id'];
@@ -49,7 +49,7 @@ tobe form e previous value e dekhato, update value show korto na.
         move_uploaded_file($post_image_tmp, "../images/$post_image");
 
         if (empty($post_image)) {
-            $query = "SELECT * FROM posts WHERE post_id = $the_psot_id ";
+            $query = "SELECT * FROM posts WHERE post_id = {$the_post_id} ";
             $select_image = mysqli_query($connection, $query);
 
             while ($row = mysqli_fetch_array($select_image)) {
@@ -59,15 +59,15 @@ tobe form e previous value e dekhato, update value show korto na.
 
 
         $query = "UPDATE posts SET ";
-        $query .= "post_title = '{$post_title}', ";
-        $query .= "post_category_id = '{$post_category_id}', ";
-        $query .= "post_date = now(), ";
-        $query .= "post_author = '{$post_author}', ";
-        $query .= "post_status = '{$post_status}', ";
-        $query .= "post_tags = '{$post_tags}', ";
-        $query .= "post_content = '{$post_content}', ";
-        $query .= "post_image = '{$post_image}' ";
-        $query .= "WHERE post_id = '{$the_psot_id}' ";
+        $query .="post_title = '{$post_title}', ";
+        $query .="post_category_id = '{$post_category_id}', ";
+        $query .="post_date = now(), ";
+        $query .="post_author = '{$post_author}', ";
+        $query .="post_status = '{$post_status}', ";
+        $query .="post_tags = '{$post_tags}', ";
+        $query .="post_content = '{$post_content}', ";
+        $query .="post_image = '{$post_image}' ";
+        $query .= "WHERE post_id = {$the_post_id}";
 
         $update_post = mysqli_query($connection, $query);
         confirmQuery($update_post);

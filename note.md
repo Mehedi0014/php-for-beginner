@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15+ [13]12 === 107 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 [14]15  === 122 )
 
 //////////////////////////////////////////////////////////////
 
@@ -182,7 +182,6 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 10. Finally Updating Posts
 11. Relating Categories to posts and Displaying it
 12. Adding Category Dropdown to the Add Post Page
-
 13. Adding Individual Post Page and Link
 14. Creating the category page
 15. Setting up some links and making an excerpt
