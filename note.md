@@ -186,6 +186,34 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 14. Creating the category page
 15. Setting up some links and making an excerpt
 
+----------------------------------
+15. CMS - COMMENTS
+----------------------------------
+1. Creating the comments table and inserting data
+2. Creating the comments page and HTML form in admin
+3. Creating the Query for displaying comments in admin part 1
+4. Creating the Query for displaying comments in admin part 2
+5. Inserting new fields in Front end comment form and testing it
+6. Creating the Frond End comment insert query
+7. Finishing the query to send comment data (Front end)
+8. Relating Comments to posts
+9. Deleting comments
+10. Approving and unapproving comments
+11. Displaying comments based on approval
+
+12. Increasing comments count
+13. Adjustments to visual for comments
+14. Adjustments for comments and Displaying Post Based on Status
+
+
+
+
+
+
+
+
+
+
 
 
 
