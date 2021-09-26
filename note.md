@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 [14]15  === 122 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14  === 136 )
 
 //////////////////////////////////////////////////////////////
 
@@ -200,7 +200,6 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 9. Deleting comments
 10. Approving and unapproving comments
 11. Displaying comments based on approval
-
 12. Increasing comments count
 13. Adjustments to visual for comments
 14. Adjustments for comments and Displaying Post Based on Status
