@@ -60,7 +60,7 @@
 
 
 
-                    $query = "INSERT INTO comments(comments_post_id, comments_author, comments_email, comments_content, comments_status, comments_date) ";
+                    $query = "INSERT INTO comments(comment_post_id, comment_author, comment_email, comment_content, comment_status, comment_date) ";
 
                     $query .= "VALUES ($the_post_id, '$comment_author', '$comment_email', '$comment_content', 'Unapproved', now() )";
 
@@ -102,7 +102,7 @@
 
                 <!-- Comment -->
                 <?php 
-                    $query = "SELECT * FROM comments WHERE comments_post_id = $the_post_id AND comments_status = 'Approved' ORDER BY comments_id DESC ";
+                    $query = "SELECT * FROM comments WHERE comment_post_id = $the_post_id AND comment_status = 'Approved' ORDER BY comment_id DESC ";
                     $select_comment_query = mysqli_query($connection, $query);
 
                     // print_r($select_comment_query);
@@ -112,19 +112,19 @@
                     }
 
                     while ($row = mysqli_fetch_array($select_comment_query)) :
-                        $comments_date = $row['comments_date'];
-                        $comments_content = $row['comments_content'];
-                        $comments_author = $row['comments_author'];
+                        $comment_date = $row['comment_date'];
+                        $comment_content = $row['comment_content'];
+                        $comment_author = $row['comment_author'];
                 ?>
                 <div class="media">
                     <a class="pull-left" href="#">
                         <img class="media-object" src="http://placehold.it/64x64" alt="">
                     </a>
                     <div class="media-body">
-                        <h4 class="media-heading"><?php echo $comments_author; ?>
-                            <small><?php echo $comments_date; ?></small>
+                        <h4 class="media-heading"><?php echo $comment_author; ?>
+                            <small><?php echo $comment_date; ?></small>
                         </h4>
-                        <?php echo $comments_content; ?>
+                        <?php echo $comment_content; ?>
                     </div>
                 </div>
                 <?php endwhile; ?>

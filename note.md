@@ -204,6 +204,26 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 13. Adjustments to visual for comments
 14. Adjustments for comments and Displaying Post Based on Status
 
+----------------------------------
+16. CMS - USERS
+----------------------------------
+1. Creating the users table and data insert
+2. Creating users pages and links
+3. Modifying user table heading
+4. Creating the display query for users
+5. Displaying users in admin
+
+6. Adding users in admin part 1
+7. Adding users in admin part 2
+8. Adding users in admin part 3
+9. Adding users in admin part 4 and final
+10. Deleting users
+
+11. Changing user roles
+12. Setting Up the Edit User Page
+13. Displaying User Values in Edit Page
+14. Adding Select Options to User Role
+15. Updating User
 
 
 
@@ -239,6 +259,55 @@ display_errors 		= 	On
 output_buffering	=	4096
 
 xampp -> etc -> php.ini
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////
+
+Admin -> includes -> edit_post.php
+
+/*
+incher code e jai jinis ta sekhar ache ta holo:
+jokhon 1st ai page load hoy tokhon database theke data ene while loop dara ta variable e store kora hoyeche.
+ebong form er maddome ta dekhano hoyeche.
+but 1st load e  "$_POST['update_post']" er modde dhuke nai.
+
+2nd jokhon form er update button e click kora hoyeche tokhon abar page ta load hoyeche ebong while loop er variable e data aber store hoyeche.
+tobe ebar "$_POST['update_post']" er modde dukeche wbong while loop o "$_POST['update_post']" er variable same hober karone form er maddome asa update value while loop er variable er value k change kore diase.
+[amra jani kono variable e data store korar por niche jodi same name sei variable diclare kore notun kono data insart kora hoy tobe purber data replace hoye jai]
+tai update korar karone database e value update hoyeche ebong form e update value show koreche.
+
+ekhon jodi while loop er variable ebong "$_POST['update_post']" er variable er nam same na hoto tobe o database e value update hoto
+tobe form e previous value e dekhato, update value show korto na.
+*/
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////
+
+// Users Table insert Query.
+
+INSERT INTO `users` (`user_id`, `username`, `user_password`, `user_firstname`, `user_lastname`, `user_email`, `user_image`, `user_role`, `randSalt`) VALUES (NULL, 'mehedi', '123', 'Md. Mehedi Hassan', 'Sharif', 'mehedi0014@gmail.com', '', 'admin', '');
+
+
+
+
 
 
 
