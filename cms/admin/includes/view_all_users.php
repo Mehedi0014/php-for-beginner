@@ -55,8 +55,9 @@
 
 
                     echo "<td></td>";
-                    echo "<td><a href='users.php?approved=$user_id'>Approved</a></td>";
-                    echo "<td><a href='users.php?unapproved=$user_id'>Unapproved</a></td>";
+                    echo "<td><a href='users.php?change_to_admin=$user_id'>Admin</a></td>";
+                    echo "<td><a href='users.php?change_to_sub=$user_id'>Subscriber</a></td>";
+                    echo "<td><a href='users.php?source=edit_user&edit_user=$user_id'>Edit</a></td>";
                     echo "<td><a href='users.php?delete=$user_id'>Delete</a></td>";
                 echo "</tr>";
             endwhile; 
@@ -65,20 +66,20 @@
 </table>
 
 <?php
-    // Approved post query =========================================
-    if (isset($_GET['approved'])) {
-        $the_comment_id = $_GET['approved'];
-        $query = "UPDATE comments SET comment_status = 'Approved' WHERE comment_id =  $the_comment_id";
-        $approved_comment_query = mysqli_query($connection, $query);
-        header('Location: comments.php');
+    // Change Subscriber to admin query =========================================
+    if (isset($_GET['change_to_admin'])) {
+        $the_user_id = $_GET['change_to_admin'];
+        $query = "UPDATE users SET user_role = 'admin' WHERE user_id =  $the_user_id";
+        $change_to_admin_query = mysqli_query($connection, $query);
+        header('Location: users.php');
     }
 
     // Unapproved post query =========================================
-    if (isset($_GET['unapproved'])) {
-        $the_comment_id = $_GET['unapproved'];
-        $query = "UPDATE comments SET comment_status = 'Unapproved' WHERE comment_id =  $the_comment_id";
-        $unapproved_comment_query = mysqli_query($connection, $query);
-        header('Location: comments.php');
+    if (isset($_GET['change_to_sub'])) {
+        $the_user_id = $_GET['change_to_sub'];
+        $query = "UPDATE users SET user_role = 'subscriber' WHERE user_id =  $the_user_id";
+        $change_to_sub_query = mysqli_query($connection, $query);
+        header('Location: users.php');
     }
 
 

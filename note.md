@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14  === 136 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15  === 151 )
 
 //////////////////////////////////////////////////////////////
 
@@ -212,13 +212,11 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 3. Modifying user table heading
 4. Creating the display query for users
 5. Displaying users in admin
-
 6. Adding users in admin part 1
 7. Adding users in admin part 2
 8. Adding users in admin part 3
 9. Adding users in admin part 4 and final
 10. Deleting users
-
 11. Changing user roles
 12. Setting Up the Edit User Page
 13. Displaying User Values in Edit Page

@@ -41,8 +41,8 @@
     </div>
 
     <div class="form-group">
-        <label for="post_category">Post Category Id</label><br>
-        <select name='user_role' id='post_category'>
+        <label for="user_role">Post Category Id</label><br>
+        <select name='user_role' id='user_role'>
             <option value="subscriber">Select Options</option>
             <option value="admin">Admin</option>
             <option value="subscriber">Subscriber</option>
