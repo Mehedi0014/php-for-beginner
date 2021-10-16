@@ -237,6 +237,27 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 8. Login improved- Edwin from the Future
 
 
+----------------------------------
+18. CMS - Profile
+----------------------------------
+1. Creating the Profile Page
+2. Displaying User Data
+3. Updating User Data
+
+
+----------------------------------
+19. CMS - Dashboard
+----------------------------------
+1. Adding Widgets
+2. Posts Dynamic Data in Widget
+3. Using Dynamic Data in all Widgets
+4. Adjusting Widget Links
+5. Adding an AWESOME Chart to admin
+6. Cleaning up the chart a little
+7. Displaying Dynamic Data in chart part 1
+8. Displaying Dynamic Data in chart part 2
+
+
 
 
 

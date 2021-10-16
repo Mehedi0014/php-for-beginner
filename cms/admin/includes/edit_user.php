@@ -77,12 +77,12 @@
 
 
 
-<!-- 
-    <div class="form-group">
-        <label for="image">Image</label>
-        <input type="file" name="image" id="image">        
-    </div>
- -->
+    <!-- 
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="file" name="image" id="image">        
+        </div>
+     -->
 
     <div class="form-group">
         <label for="username">Username</label>
@@ -100,6 +100,6 @@
     </div>
 
     <div class="form-group">
-        <input class="btn btn-primary" type="submit" name="edit_user" value="Add User">
+        <input class="btn btn-primary" type="submit" name="edit_user" value="Update User">
     </div>
 </form>
