@@ -1,7 +1,7 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8  === 159 )
+All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8  === 170 )
 
 //////////////////////////////////////////////////////////////
 
@@ -256,6 +256,20 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 6. Cleaning up the chart a little
 7. Displaying Dynamic Data in chart part 1
 8. Displaying Dynamic Data in chart part 2
+
+
+----------------------------------
+20. Improving Our CMS
+----------------------------------
+1. Adjusting post echo
+2. Removing Read More Button
+3. Adding Notification to Add User Page
+
+
+
+
+
+
 
 
 
