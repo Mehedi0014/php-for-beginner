@@ -7,6 +7,10 @@
             <th>Lastname</th>
             <th>Email</th>
             <th>Role</th>
+            <th>Make Admin</th>
+            <th>Make Subscriber</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>                                
@@ -53,8 +57,6 @@
                     //     echo "<td><a href='../post.php?p_id=$post_id'>$post_title</a></td>";
                     // }                   
 
-
-                    echo "<td></td>";
                     echo "<td><a href='users.php?change_to_admin=$user_id'>Admin</a></td>";
                     echo "<td><a href='users.php?change_to_sub=$user_id'>Subscriber</a></td>";
                     echo "<td><a href='users.php?source=edit_user&edit_user=$user_id'>Edit</a></td>";

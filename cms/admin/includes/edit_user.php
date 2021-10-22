@@ -42,6 +42,7 @@
 
         $edit_user_query = mysqli_query($connection, $query);
         confirmQuery($edit_user_query);
+        echo "User update seccesfully. <a href='users.php'>Edit Another User</a>";
     }
 ?>
 
@@ -64,11 +65,12 @@
     <div class="form-group">
         <label for="post_category">Post Category Id</label><br>
         <select name='user_role' id='user_role'>
-            <option value="subscriber"><?php echo $user_role ?></option>
             <?php 
                 if ($user_role == 'admin') {
+                    echo "<option value='admin'>Admin</option>";
                     echo "<option value='subscriber'>Subscriber</option>";
-                }else{
+                }else{                   
+                    echo "<option value='subscriber'>Subscriber</option>";
                     echo "<option value='admin'>Admin</option>";
                 }
             ?>            

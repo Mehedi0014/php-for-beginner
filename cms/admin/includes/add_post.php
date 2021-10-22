@@ -37,13 +37,13 @@
     </div>
 
     <div class="form-group">
-        <label for="post_category">Post Category Id</label><br>
+        <label for="post_category">Post Category</label><br>
         <select name='post_category' id='post_category'>
         <?php
             $query = "SELECT * FROM categories";
             $select_categories = mysqli_query($connection, $query);
             confirmQuery($select_categories);
-
+            echo "<option value='0'>Select Category</option>";
             while ($row = mysqli_fetch_assoc($select_categories)) {
                 $cat_id = $row['cat_id'];
                 $cat_title = $row['cat_title'];
@@ -59,8 +59,12 @@
     </div>
 
     <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input type="text" class="form-control" name="post_status" id="post_status">
+        <label for="post_status">Post Status</label><br>
+        <select name="post_status" id="post_status">
+            <option value="draft">Select Options</option>
+            <option value="published">Published</option>
+            <option value="draft">Draft</option>
+        </select>
     </div>
 
     <div class="form-group">
@@ -75,7 +79,7 @@
 
     <div class="form-group">
         <label for="post_content">Post Contet</label>
-        <textarea name="post_content" class="form-control" id="post_content" cols="" rows=""></textarea>
+        <textarea name="post_content" class="form-control ckClassicEditor" id="post_content" cols="" rows=""></textarea>
     </div>
 
     <div class="form-group">

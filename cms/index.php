@@ -4,11 +4,6 @@
     <?php include("includes/navigation.php"); ?>
 
     <div class="container">
-        <h1 class="page-header">
-            Page Heading
-            <small>Secondary Text</small>
-        </h1>
-
         <div class="row">
             <div class="col-md-8">
                 <?php
@@ -24,9 +19,7 @@
                         $post_content = substr($row['post_content'], 0, 300);
                         $post_status = $row['post_status'];
  
-                        if ($post_status !== 'published') {
-                            echo "<h1>No post found here</h1>";
-                        } else {
+                        if ($post_status == 'published') {
                 ?>
                         <div>
                             <h2>
@@ -40,7 +33,7 @@
                             <img class="img-responsive" src="images/<?php echo $post_image; ?>" alt="Mehedi's Image">
                             <hr>
                             <p><?php echo $post_content; ?></p>
-                            <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                            <a class="btn btn-primary" href="post.php?p_id=<?php echo $post_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                             <hr>
                         </div>
                 <?php } endwhile ?>

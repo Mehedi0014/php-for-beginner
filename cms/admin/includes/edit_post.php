@@ -14,6 +14,10 @@ ekhon jodi while loop er variable ebong "$_POST['update_post']" er variable er n
 tobe form e previous value e dekhato, update value show korto na.
 */
 
+/*
+Tobe jodi Update Query k, Select Query er upore lekah hoy tobe 2 query er variable ac na tekehe o code kora jabe. (acono test kora hoinai) 
+*/
+
     if (isset($_GET['p_id'])) {
         $the_post_id = $_GET['p_id'];
     }
@@ -71,6 +75,7 @@ tobe form e previous value e dekhato, update value show korto na.
 
         $update_post = mysqli_query($connection, $query);
         confirmQuery($update_post);
+        echo "Post update seccesfully. <a href='../post.php?p_id={$the_post_id}'>View Post</a> OR <a href='posts.php'>Edit Another post</a>";
     }
 ?>
 
@@ -96,8 +101,7 @@ tobe form e previous value e dekhato, update value show korto na.
                     $cat_title = $row['cat_title']; 
                     echo "<option value='{$cat_id}'>{$cat_title}</option>";
                 }
-            ?>
-            
+            ?>            
         </select>
         
     </div>
@@ -108,8 +112,18 @@ tobe form e previous value e dekhato, update value show korto na.
     </div>
 
     <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input value="<?php echo $post_status; ?>" type="text" class="form-control" name="post_status" id="post_status">
+        <label for="post_status">Post Status</label><br>
+        <select class="post_status" name="post_status" id="post_status">            
+            <?php
+                if ($post_status == 'published') {
+                    echo "<option value='published'>Published</option>";
+                    echo "<option value='draft'>Draft</option>";
+                }else{
+                    echo "<option value='draft'>Draft</option>";
+                    echo "<option value='published'>Published</option>";
+                }
+            ?>
+        </select>        
     </div>
 
     <div class="form-group">

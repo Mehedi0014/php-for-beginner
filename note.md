@@ -1,7 +1,9 @@
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
-All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8  === 170 )
+Total Duration - 37h 56m
+All Video 340 - 
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3->{20h 36m}  === 173 )
 
 //////////////////////////////////////////////////////////////
 
@@ -266,6 +268,34 @@ All Video 340 - ( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 
 3. Adding Notification to Add User Page
 
 
+----------------------------------
+21. CMS -Extra Features
+----------------------------------
+1. Adding Dynamic Category Selection for Edit Post Page
+2. Adding extra element to dashboard
+3. Adding the WYSIWYG Editor
+4. Adding Links to Post Images and Read More Button
+5. Adding Post Update Notification
+6. Adding Post Edit Link in Front End
+7. Adding Bulk Options Posts, part 1
+8. Adding Bulk Options Posts, part 2
+9. Adding Bulk Options Posts, part 3
+10. Adding Bulk Options Posts, part 4
+11. Adding Bulk Options Posts, part 5
+12. Adding Bulk Options Posts, part 6
+
+13. Adding Dropdown Option for Add Post Page
+14. Adding Post Creation Notice to Add Post Page
+15. Adding Link to Add New Button in Post Page
+16. Adding Link to View Posts from Admin
+17. Adding Dynamic Personalization to Admin
+18. Adding Validation to Comments in Post Page
+
+
+
+
+
+
 
 
 
@@ -307,8 +337,11 @@ xampp -> etc -> php.ini
 
 
 
+//////////////////////////////////////////////////////////////
 
-
+Jokhon amra php tag er modde kono kichu echo korbo tokhon jobi echo k double code dai like: echo "",
+tobe amar echo er modde second bracket like: {} babohar kore tar modde variable pass korte parbo. like: {$yourVariable}.
+single code like: echo '' dile evabe variable use kora jai na. 
 
 //////////////////////////////////////////////////////////////
 
@@ -330,20 +363,6 @@ tobe form e previous value e dekhato, update value show korto na.
 */
 
 
-
-
-
-
-
-
-
-
-
-//////////////////////////////////////////////////////////////
-
-// Users Table insert Query.
-
-INSERT INTO `users` (`user_id`, `username`, `user_password`, `user_firstname`, `user_lastname`, `user_email`, `user_image`, `user_role`, `randSalt`) VALUES (NULL, 'mehedi', '123', 'Md. Mehedi Hassan', 'Sharif', 'mehedi0014@gmail.com', '', 'admin', '');
 
 
 

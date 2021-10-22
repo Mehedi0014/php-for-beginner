@@ -7,11 +7,6 @@
     <?php include("includes/navigation.php"); ?>
 
     <div class="container">
-        <h1 class="page-header">
-            Page Heading
-            <small>Secondary Text</small>
-        </h1>
-
         <div class="row">
             <div class="col-md-8">
                 <?php
@@ -31,9 +26,7 @@
                 ?>
 
                 <div>
-                    <h2>
-                        <a href="#"><?php echo $post_title; ?></a>
-                    </h2>
+                    <h2><?php echo $post_title; ?></h2>
                     <p class="lead">
                         by <a href="index.php"><?php echo $post_author; ?></a>
                     </p>
@@ -42,7 +35,6 @@
                     <img class="img-responsive" src="images/<?php echo $post_image; ?>" alt="Mehedi's Image">
                     <hr>
                     <p><?php echo $post_content; ?></p>
-                    <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                     <hr>
                 </div>
                 <?php endwhile ?>
