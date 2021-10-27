@@ -3,7 +3,7 @@ End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3->{20h 36m}  === 173 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18->{22h 37m}  === 191 )
 
 //////////////////////////////////////////////////////////////
 
@@ -283,7 +283,6 @@ All Video 340 -
 10. Adding Bulk Options Posts, part 4
 11. Adding Bulk Options Posts, part 5
 12. Adding Bulk Options Posts, part 6
-
 13. Adding Dropdown Option for Add Post Page
 14. Adding Post Creation Notice to Add Post Page
 15. Adding Link to Add New Button in Post Page
@@ -292,8 +291,24 @@ All Video 340 -
 18. Adding Validation to Comments in Post Page
 
 
-
-
+----------------------------------
+22. CMS -Extra Features - User Registration
+----------------------------------
+1. Downloading & Placing Form Markup
+2. Testing Registration Form
+3. Extracting Form Values and Escaping
+4. Starting Query and Default Tables Values
+5. Fetching our Database for Default Values
+6. Registering Users
+7. Validating Fields
+8. Encrypting User Passwords
+9. Updating Our CMS due to password Encryption
+10. User Page Display Shorter Password Field
+11. User Page Dropdown Default Value Change
+12. PHP and Javascript Confirm Before Action
+13. Get Your Certificate
+14. Wrapping this up! (IMPORTANT)
+15. Make your Feature requests here!
 
 
 
@@ -360,6 +375,10 @@ tai update korar karone database e value update hoyeche ebong form e update valu
 
 ekhon jodi while loop er variable ebong "$_POST['update_post']" er variable er nam same na hoto tobe o database e value update hoto
 tobe form e previous value e dekhato, update value show korto na.
+*/
+
+/*
+Tobe jodi Update Query k, Select Query er upore lekah hoy tobe 2 query er variable ac na tekehe o code kora jabe. (acono test kora hoinai) 
 */
 
 

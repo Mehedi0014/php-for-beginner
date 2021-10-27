@@ -25,6 +25,11 @@
 
         // This functin come form functions.php
         confirmQuery($create_post_query);
+
+        // Get the last id from database
+        $the_post_id = mysqli_insert_id($connection);
+
+        echo "Post created seccesfully. <a href='../post.php?p_id={$the_post_id}'>View Post</a>";
     }
 ?>
 
