@@ -45,7 +45,7 @@ function findAllCategories(){
         echo "<tr>";
         echo "<td>{$cat_id}</td>";      
         echo "<td>{$cat_title}</td>";
-        echo "<td><a href='categories.php?delete={$cat_id}'>Delete</></td>";
+        echo "<td><a onClick=\"javascript: return confirm('Are you sure'); \" href='categories.php?delete={$cat_id}'>Delete</></td>";
         echo "<td><a href='categories.php?edit={$cat_id}'>Edit</></td>";
         echo "</tr>";                                       
     endwhile;

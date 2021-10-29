@@ -3,7 +3,7 @@ End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18->{22h 37m}  === 191 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m}  === 206 )
 
 //////////////////////////////////////////////////////////////
 
@@ -311,12 +311,15 @@ All Video 340 -
 15. Make your Feature requests here!
 
 
-
-
-
-
-
-
+----------------------------------
+23. CMS-Extra Features - Author Related Posts
+----------------------------------
+1. Relating Posts to their Authors Part #1
+2. Relating Posts to their Authors Part #2
+3. Cloning Posts NEW feature - COOL STUFF :)
+4. Adding a LOADER to the CMS Admin
+5. Adding views functionality to posts
+6. Resetting Views Feature
 
 
 

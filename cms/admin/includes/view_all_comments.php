@@ -59,7 +59,7 @@
                     echo "<td>$comment_date</td>";
                     echo "<td><a href='comments.php?approved=$comment_id'>Approved</a></td>";
                     echo "<td><a href='comments.php?unapproved=$comment_id'>Unapproved</a></td>";
-                    echo "<td><a href='comments.php?delete=$comment_id'>Delete</a></td>";
+                    echo "<td><a onClick=\"javascript: return confirm('Are you sure'); \" href='comments.php?delete=$comment_id'>Delete</a></td>";
                 echo "</tr>";
             endwhile; 
         ?>
