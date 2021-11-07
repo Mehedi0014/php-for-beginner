@@ -10,12 +10,18 @@
         <div class="row">
             <div class="col-md-8">
                 <?php
-                    if (isset($_GET['p_id'])) {
+                    if (isset($_GET['p_id'])) :
                         $the_post_id = $_GET['p_id'];
-                    }
 
-                    $query = "SELECT * FROM posts WHERE post_id = {$the_post_id}";
-                    $select_all_posts_query = mysqli_query($connection, $query);
+                        $view_query = "UPDATE posts SET post_views_count = post_views_count + 1 WHERE post_id = $the_post_id ";
+                        $send_query = mysqli_query($connection, $view_query);
+
+                        if (!$send_query) {
+                            die("Query Failed");
+                        }
+
+                        $query = "SELECT * FROM posts WHERE post_id = {$the_post_id}";
+                        $select_all_posts_query = mysqli_query($connection, $query);
 
                     while ( $row =  mysqli_fetch_assoc($select_all_posts_query)) :
                         $post_title = $row['post_title'];
@@ -37,7 +43,13 @@
                     <p><?php echo $post_content; ?></p>
                     <hr>
                 </div>
-                <?php endwhile ?>
+                <?php
+                    endwhile; 
+                else:
+                    header("Location: index.php");
+                endif; 
+
+                ?>
 
 
                 <!-- Blog Comments -->

@@ -316,8 +316,9 @@ All Video 340 -
 ----------------------------------
 1. Relating Posts to their Authors Part #1
 2. Relating Posts to their Authors Part #2
-3. Cloning Posts NEW feature - COOL STUFF :)
+3. Cloning Posts NEW feature - COOL STUFF
 4. Adding a LOADER to the CMS Admin
+
 5. Adding views functionality to posts
 6. Resetting Views Feature
 
