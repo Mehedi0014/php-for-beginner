@@ -9,28 +9,25 @@
         <div class="row">
             <div class="col-md-8">
                 <?php
-                    $per_page = 5;
-                    if(isset($_GET['page'])){
-                        $per_page = 5;
-                        $page = $_GET['page'];
-                    }else {
-                        $page = "";
-                    }
-
-                    if ($page == "" || $page == 0) {
-                        $page_1 = 0;
-                    } else {
-                        $page_1 = ($page * $per_page) - $per_page;
-                    }
+                    $post_limit = 4;
+                    $mm = 0;
 
                     $post_query_count = "SELECT * FROM posts";
                     $select_all_posts_query = mysqli_query($connection, $post_query_count);
                     $count = mysqli_num_rows($select_all_posts_query);
-                    $count = ceil($count / $per_page);
+                    $count = ceil($count / $post_limit);
 
-                    // nicher query te vul ache. nicher niyome offset aghe bose and limit pore bose.
-                    // but niche ultota kora hoyeche
-                    $query = "SELECT * FROM posts LIMIT $page_1, $per_page";
+                    
+                    if(isset($_GET['mm'])){
+                        $mm = $_GET['mm'];
+                        if ($mm <= 1){
+                            $mm = 0;
+                        }else{
+                            echo $mm = ($post_limit * $mm) - $post_limit;
+                        }
+                    }
+
+                    $query = "SELECT * FROM posts LIMIT $post_limit OFFSET $mm";
                     $select_all_posts_query = mysqli_query($connection, $query);
 
                     while ( $row =  mysqli_fetch_assoc($select_all_posts_query)) :
@@ -75,13 +72,9 @@
 
         <ul class="pager">
             <?php
-                for ($i = 1; $i <= $count; $i++) {
-                    if ($i == $page) {
-                        echo "<li><a class='active_link' href='index.php?page={$i}'>{$i}</a></li>";
-                    }else {
-                        echo "<li><a href='index.php?page={$i}'>{$i}</a></li>";
-                    }
-                    
+                for ($i = 0; $i < $count; $i++) {
+                    $j = $i+1;
+                    echo "<li><a href='index.php?mm=$j'>{$j}</a></li>";
                 }
             ?>
         </ul>

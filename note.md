@@ -318,9 +318,23 @@ All Video 340 -
 2. Relating Posts to their Authors Part #2
 3. Cloning Posts NEW feature - COOL STUFF
 4. Adding a LOADER to the CMS Admin
-
 5. Adding views functionality to posts
 6. Resetting Views Feature
+
+
+----------------------------------
+24. Pagination
+----------------------------------
+1. Pagination Intro and Part 1
+2. Pagination Intro and Part 2 - Links and Get Request
+3. Pagination Intro and Part 3 - Get Request Processing
+4. Pagination Intro and Part 4 - Assigning a variable to the per page value
+5. Pagination Intro and Part 5 - Adding Some Style to Current Page )
+
+
+
+
+
 
 
 

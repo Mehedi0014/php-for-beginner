@@ -1,0 +1,5 @@
+ul.pager li a.active_link {
+	background: #000 !important;
+	padding: 4px 10px !important;
+	color: #fff !important;
+}
