@@ -3,7 +3,7 @@ End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m}  === 206 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 === 223 )
 
 //////////////////////////////////////////////////////////////
 
@@ -330,6 +330,17 @@ All Video 340 -
 3. Pagination Intro and Part 3 - Get Request Processing
 4. Pagination Intro and Part 4 - Assigning a variable to the per page value
 5. Pagination Intro and Part 5 - Adding Some Style to Current Page )
+
+
+----------------------------------
+25. CMS - Extra Features - Users ONLINE
+----------------------------------
+1. Creating the user online table and Setup
+2. Creating the PHP code and Queries
+3. Displaying Users Online
+4. Displaying Users Online in Navigation
+5. Instant Users Online count without refreshing part 1
+6. Instant Users Online count without refreshing part 2
 
 
 
