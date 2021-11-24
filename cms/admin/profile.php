@@ -15,7 +15,6 @@
             $user_lastname = $row['user_lastname'];
             $user_email = $row['user_email'];
             $user_image = $row['user_image'];
-            $user_role = $row['user_role'];
         }
     }
 
@@ -27,7 +26,6 @@
         $user_firstname = $_POST['user_firstname'];
         $user_lastname = $_POST['user_lastname'];
         $user_email = $_POST['user_email'];
-        $user_role = $_POST['user_role'];
 
 
         $query = "UPDATE users SET ";
@@ -35,8 +33,7 @@
         $query .="user_password = '{$user_password}', ";
         $query .="user_firstname = '{$user_firstname}', ";
         $query .="user_lastname = '{$user_lastname}', ";
-        $query .="user_email = '{$user_email}', ";
-        $query .="user_role = '{$user_role}' ";
+        $query .="user_email = '{$user_email}' ";
         $query .= "WHERE username = '{$username}' ";
 
         $edit_user_query = mysqli_query($connection, $query);
@@ -73,31 +70,6 @@
                                 <input type="text" value="<?php echo $user_lastname ?>" class="form-control" name="user_lastname" id="user_lastname">
                             </div>
 
-
-
-                            <div class="form-group">
-                                <label for="post_category">Post Category Id</label><br>
-                                <select name='user_role' id='user_role'>
-                                    <option value="subscriber"><?php echo $user_role ?></option>
-                                    <?php 
-                                        if ($user_role == 'admin') {
-                                            echo "<option value='subscriber'>Subscriber</option>";
-                                        }else{
-                                            echo "<option value='admin'>Admin</option>";
-                                        }
-                                    ?>            
-                                </select>
-                            </div>
-
-
-
-                            <!-- 
-                                <div class="form-group">
-                                    <label for="image">Image</label>
-                                    <input type="file" name="image" id="image">        
-                                </div>
-                             -->
-
                             <div class="form-group">
                                 <label for="username">Username</label>
                                 <input type="text" value="<?php echo $username ?>" class="form-control" name="username" id="username">
@@ -110,7 +82,7 @@
 
                             <div class="form-group">
                                 <label for="user_password">Password</label>
-                                <input type="password" value="<?php echo $user_password ?>" class="form-control" name="user_password" id="user_password">
+                                <input type="password" class="form-control" name="user_password" id="user_password" autocomplete="off">
                             </div>
 
                             <div class="form-group">

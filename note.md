@@ -3,7 +3,7 @@ End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 === 223 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 + [26]+6 === 229 )
 
 //////////////////////////////////////////////////////////////
 
@@ -343,10 +343,15 @@ All Video 340 -
 6. Instant Users Online count without refreshing part 2
 
 
-
-
-
-
+----------------------------------
+26. CMS- Extra Feature - NEW Simple Password Encrypting and Login System
+----------------------------------
+1. Explanation of new New function and Implementation
+2. Login in Users with new System
+3. Adding New System to Add Users in Admin
+4. Adding new password system to edit user page part 1
+5. Adding new password system to edit user page part 2
+6. Cleaning Up Edit User Page
 
 
 
