@@ -1,13 +1,21 @@
+Following Githum:
+Commit: Start cms project
+Following File:
+	1. cms/admin/index.php
+	2. cms/index.php
+	3. cms/post.php
+	4. note.md
+
+//////////////////////////////////////////////////////////////
+
 Start Date: 1st August, 2021
 End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 + [26]+6 === 229 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4+ [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 + [26]+6 + [27]+4 === 233 )
 
 //////////////////////////////////////////////////////////////
-
-
 
 ----------------------------------
 1. The First Steps
@@ -352,6 +360,28 @@ All Video 340 -
 4. Adding new password system to edit user page part 1
 5. Adding new password system to edit user page part 2
 6. Cleaning Up Edit User Page
+
+
+----------------------------------
+27. CMS - Extra Feature - Improved Comment system count and diplay
+----------------------------------
+1. Comment count and amount display
+2. Creating a link in comment count and sending a GET Request
+3. Comments page to specific posts
+4. Deleting in the same page
+
+
+----------------------------------
+28. CMS - Extra Feature - Post for Specific User in admin
+----------------------------------
+1. Part 1 - Add Page
+2. Part 2 - Insertion
+3. Part 3 - Fixing User Display Issue
+4. Part 4 - Edit Post Page Update -------------------------------------------------> theke suru.
+5. Part 5 - Upgrading Front End
+
+
+
 
 
 
