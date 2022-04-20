@@ -1,4 +1,4 @@
-Following Githum:
+Following Github:
 Commit: Start cms project
 Following File:
 	1. cms/admin/index.php
@@ -13,7 +13,7 @@ End Date: 31th December, 2121
 
 Total Duration - 37h 56m
 All Video 340 - 
-( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4 + [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15->{23h 45m} + [23]+6 + [24]+5 + [25]+6 + [26]+6 + [27]+4 +[28]+5 === 238 )
+( [1]9 + [2]5 + [3]7 + [4]7 + [5]4 + [6]5 + [7]18 + [8]3 + [9]8 + [10]10 + [11]4 + [12]15 + [13]12 + [14]15 + [15]14 + [16]+15 + [17]+8 + [18]+3 + [19]+8 + [20]+3 + [21]+18 + [22]+15 + [23]+6 + [24]+5 + [25]+6 + [26]+6 + [27]+4 +[28]+5 [29]+1 [30]+8->{27h 53m} === 247 )
 
 //////////////////////////////////////////////////////////////
 
@@ -387,6 +387,21 @@ All Video 340 -
 1. URL and MySQL Injection Protection
 
 
+----------------------------------
+30. Taking the Project to the Internet
+----------------------------------
+1. WARNING BEFORE GOING ONLINE - Edwin from the future
+2. Hosting Setup
+3. Displaying errors online
+4. Uploading files
+5. Creating the Online Database
+6. Importing database
+7. Fixing access to application!
+8. Getting the right PHP online version (FIXED)
+
+
+
+
 
 
 
@@ -401,8 +416,6 @@ All Video 340 -
 	<?= ?>
 	<% %>
 
-
-
 //////////////////////////////////////////////////////////////
 
 12.2: go to phpinfo();
@@ -415,6 +428,12 @@ output_buffering	=	4096
 
 xampp -> etc -> php.ini
 
+//////////////////////////////////////////////////////////////
+
+nijer banano application/cms etc bananor por server e upload korar por jodi kono error thake ebong ta show korate chai tobe:
+php.ini file e jete hobe ebong nicher configuration korte hobe:
+	error_reporting = E_ALL
+	display_errors = on
 
 
 
